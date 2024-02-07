@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kampusku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Tema2">
+
+        <!-- Deklarasi aktivitas LoginActivity -->
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login Activity"
+            android:theme="@style/Tema1" />
+
+        <!-- Deklarasi aktivitas RegisterActivity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register Activity"
+            android:theme="@style/Tema2" />
+
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Dashboard"
+            android:theme="@style/Tema1" />
+        <activity
+            android:name=".DataMahasiswa"
+            android:label="Data Mahasiswa"
+            android:parentActivityName=".DataMahasiswa"
+            android:theme="@style/Tema1" />
+        <activity
+            android:name=".InputData"
+            android:label="Input Data"
+            android:parentActivityName=".InputData"
+            android:theme="@style/Tema1" />
+        <activity
+            android:name=".Informasi"
+            android:label="Informasi"
+            android:parentActivityName=".Informasi"
+            android:theme="@style/Tema1" />
+        <activity android:name=".UpdateData"
+            android:label="Update Data"
+            android:parentActivityName=".UpdateData"
+            android:theme="@style/Tema1"/>
+        <activity android:name=".DetailData"
+            android:label="Detail Data"
+            android:parentActivityName=".DetailData"
+            android:theme="@style/Tema1"/>
+    </application>
+
+</manifest>

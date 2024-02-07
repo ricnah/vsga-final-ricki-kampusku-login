@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KampusKu</string>
+    <string name="project_2">RICKI WKWKWKWKWK</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="asal_sekolah">Asal Sekolah</string>
+    <string name="alamat_tinggal">Alamat Tinggal</string>
+    <string name="simpan">Simpan</string>
+    <string name="logout">Logout</string>
+    <string name="info_desc">Aplikasi Kampusku merupakan aplikasi yang digunakan untuk pendataan mahasiswa. User nantinya bisa menambahkan, melihat, update, dan hapus data mahasiswa.</string>
+</resources>
