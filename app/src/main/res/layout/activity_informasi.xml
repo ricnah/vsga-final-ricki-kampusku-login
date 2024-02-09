@@ -99,7 +99,7 @@
                 android:layout_marginTop="50dp"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                android:text="Ricki Maulana Abdillah" />
+                android:text="Ricki M" />
 
             <TextView
                 android:layout_width="wrap_content"
